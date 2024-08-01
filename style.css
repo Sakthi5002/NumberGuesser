@@ -1,0 +1,76 @@
+html,
+body {
+    margin: 0%;
+    padding: 0%;
+    border: 0%;
+    height: 100%;
+    font-size: 62.5%;
+
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #bbe4e9;
+    font-family: Bradley Hand, cursive;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+h1 {
+    color: #53a8b6;
+    font-size: 5rem
+}
+
+.small-text {
+    font-size: 2.5rem;
+    color: #5585b5;
+}
+
+.btn-container {
+    display: flex;
+    gap: 3rem;
+    justify-content: center;
+    align-items: center;
+    margin: 3rem;
+}
+
+.button-text {
+    display: block;
+    padding: 1rem 2.4rem;
+    border-radius: 1rem;
+    text-align: center;
+    font-size: 2rem;
+    border: 0.2rem solid #5585b5;
+    background-color: #5585b5;
+    color: #bbe4e9;
+}
+
+.button-text:hover {
+    border: 0.2rem solid #5585b5;
+    background-color: #dff8fc;
+    color: #5585b5;
+    box-shadow: 0 0.2rem 0.6rem 0 #53a9b6, 00.8rem 1.2rem 0 #53a9b600;
+}
+
+.input-box {
+    border: none;
+    height: 2.8rem;
+    width: 5rem;
+    border: 0.2rem solid #5585b5;
+    border-radius: 0.4rem;
+    background-color: #dff8fc;
+    color: #53a8b6;
+    text-align: center;
+}
+
+.input-box[type=text]:focus {
+    outline: none;
+    border: 0.2rem solid #5585b5;
+}
