@@ -8,12 +8,10 @@ var scoreValue = 0;
 
 function randomGenerator() {
     var number = Math.round(Math.random() * 5);
-    console.log(number);
     return number;
 }
 
 var click = () => {
-    // console.log("Pressed...");
     if (input.value == randomNumber) {
         scoreValue++;
         score.innerText = `Score: ${scoreValue}`;
@@ -25,7 +23,6 @@ var click = () => {
     setTimeout(() => {
         resultText.innerText = "‎";
     }, 1500);
-    randomNumber = randomGenerator();
 }
 okButton.onclick = click;
 
