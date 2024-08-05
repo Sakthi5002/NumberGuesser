@@ -19,6 +19,7 @@ var click = () => {
         score.innerText = `Score: ${scoreValue}`;
         resultText.innerText = "Correct!";
         tryValue = 0;
+        randomNumber = randomGenerator();
         setTimeout(() => {
             tryText.innerText = `Tries: 0`;
         }, 1500);
